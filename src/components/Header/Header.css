@@ -1,0 +1,22 @@
+.header-container {
+    background: black;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: orangered;
+}
